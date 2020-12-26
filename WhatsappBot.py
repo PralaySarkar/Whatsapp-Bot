@@ -16,7 +16,7 @@ wait = WebDriverWait(driver, 600)
 target = '"Gour Daa"'
 
 # Replace the below string with your own message
-string = "You have been HACKED!"
+string = "You messed with the wrong hacker. You all are HACKED!"
 
 x_arg = '//span[contains(@title,' + target + ')]'
 group_title = wait.until(EC.presence_of_element_located((
